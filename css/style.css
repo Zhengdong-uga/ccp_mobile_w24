@@ -1,5 +1,5 @@
 body {
-    background-color: #1a1a1a;
+    background-color: #181717;
     color: #c0c0c0;
     font-family: 'Courier New', Courier, monospace;
 
@@ -33,6 +33,12 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav ul li a.active {
+    color: #fff; /* Active link color */
+    background-color: #0056b3; 
+    font-weight: bold;
 }
 
 /* Photo grid for travel(1) and pets(2) */
@@ -72,7 +78,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #2a2a2a;
+    background-color: #000000;
     /* Slightly lighter background for content */
 
 }
@@ -84,8 +90,7 @@ h1 {
 h1,
 h2,
 h3 {
-    color: #ff2d20;
-    text-shadow: 0 0 5px #ff2d20;
+    color: #fd6c64;
 }
 
 h1,
